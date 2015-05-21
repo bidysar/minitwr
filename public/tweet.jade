@@ -1,0 +1,45 @@
+html(xmlns='http://www.w3.org/1999/xhtml')
+head
+    meta(http-equiv='Content-Type', content='text/html; charset=iso-8859-1')
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='style1.css')
+    title minitwr
+  body
+    .contenertwr
+      .entete
+        #entete1
+          nav
+            ul
+              li
+                a(href='acceuil.html', title='Acceuil')  Accueil
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              li
+                a(href='notification.html', title='Notifixation')  Notification
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              li
+                a(href='message.html', title='Message')  Message
+        | &#x9;&#x9;&#x9;
+        #entete2
+          img.bouton(src='boutons/africa.png', width='50', height='50')
+        | &#x9;&#x9;&#x9;
+        #entete3
+          p
+            a(href='tsb.html')
+              img.bouton(src='boutons/who.png', width='45', height='45')
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            a(href='tsb.html')
+              img.bouton(src='boutons/tweeet.png', width='200', height='50')
+      |            
+      | &#x9;&#x9;
+      #articletwr
+        #articleintern2twr
+          img.bouton(src='tweet.png', width='700', height='45')
+          br
+          | &#x9;&#x9;&#x9;
+          form(method='post', action='')
+            p
+              textarea(type='text', name='nom', rows='20', cols='30', size='250', maxlength='300', placeholder=' tweet ?')
+              br
+          | &#x9;&#x9;&#x9;
+          a(href='tsb.html')
+            img.bouton(src='tweet2.png', width='700', height='50')
